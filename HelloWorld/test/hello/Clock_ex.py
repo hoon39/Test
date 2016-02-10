@@ -16,8 +16,8 @@ class Application(tk.Canvas):
     def __init__(self, master=None):
         self.w = tk.Canvas.__init__(self, width=1000, height=1000)
         self.pack()
-        self.w=tk.Canvas.create_rectangle(0, 0, 1000, 1000, fill="black")
-        self.w=tk.Canvas.create_text(500, 90, text="Test", fill="white", font=("Times new roman",20))
+        #self.w=tk.Canvas.create_rectangle(0, 0, 1000, 1000, fill="black")
+        #self.w=tk.Canvas.create_text(500, 90, text="Test", fill="white", font=("Times new roman",20))
 
         #self.createWidgets()
 
